@@ -1,6 +1,6 @@
 # v0.1.0 — Marketplace SQL Analytics
 
-Prepared notes for the first source-code release. Publication and DOI registration remain pending the Zenodo rights decision and account access.
+Prepared notes for the first source-code release. The custom rights statement for manual Zenodo archiving was approved on 17 October 2026. Publication and DOI registration remain pending account access.
 
 ## Included
 
