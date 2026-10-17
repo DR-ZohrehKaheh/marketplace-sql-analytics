@@ -1,6 +1,7 @@
 # Marketplace SQL Analytics
 
 [![Validate SQL portfolio](https://github.com/DR-ZohrehKaheh/marketplace-sql-analytics/actions/workflows/ci.yml/badge.svg)](https://github.com/DR-ZohrehKaheh/marketplace-sql-analytics/actions/workflows/ci.yml)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23435889.svg)](https://doi.org/10.5281/zenodo.23435889)
 
 **Customer & Category Intelligence · SQL · SQLite · Python**
 
@@ -120,7 +121,18 @@ Useful extensions include parameterised analysis dates with explicit observation
 
 ## Citation and rights
 
-Use [CITATION.cff](CITATION.cff) and a commit identifier when citing a specific revision. No software DOI or tagged release is claimed. No open-source software licence has been assigned; see [RIGHTS.md](RIGHTS.md).
+Please cite the archived software when referring to this project:
+
+> Kaheh, Z. (2026). *Marketplace SQL Analytics: Customer and Category Intelligence* (Version 0.1.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.23435889
+
+- [GitHub release v0.1.0](https://github.com/DR-ZohrehKaheh/marketplace-sql-analytics/releases/tag/v0.1.0) · [Zenodo record](https://zenodo.org/records/23435889).
+- Version DOI: [10.5281/zenodo.23435889](https://doi.org/10.5281/zenodo.23435889) — identifies this fixed release.
+- Concept DOI: [10.5281/zenodo.23435888](https://doi.org/10.5281/zenodo.23435888) — represents all versions and resolves to the latest one.
+- Citation files: [CITATION.cff](CITATION.cff) and [CITATION.bib](CITATION.bib). GitHub's **Cite this repository** control also provides formatted citations.
+
+The archive contains the 30 tracked files at commit [`d7cafad54af52b07d158a7df330433885ae51445`](https://github.com/DR-ZohrehKaheh/marketplace-sql-analytics/commit/d7cafad54af52b07d158a7df330433885ae51445). Citation and publication-status edits made after DOI registration are later repository changes, not part of that snapshot. The release tag has not been moved. Include a commit identifier when citing a later revision; see [archive provenance](docs/ARCHIVE.md).
+
+**No general software reuse licence — rights reserved.** Public viewing and scholarly citation do not grant general permission to modify, redistribute or commercially use the original software. See [RIGHTS.md](RIGHTS.md); Olist data retain their separate terms.
 
 
 Technical references: [SQLite SQL](https://www.sqlite.org/lang.html), [window functions](https://www.sqlite.org/windowfunctions.html), [Python sqlite3](https://docs.python.org/3.12/library/sqlite3.html).

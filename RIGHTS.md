@@ -14,7 +14,7 @@ Original CSVs, customer-level reports and the transformed historical database ar
 
 ## Synthetic demonstration
 
-The fixed-seed generator creates invented records representing no actual customer or marketplace. Synthetic demonstration figures are labelled accordingly. No dataset licence has been applied automatically to the original source code, and no software DOI has been assigned by this preparation step.
+The fixed-seed generator creates invented records representing no actual customer or marketplace. Synthetic demonstration figures are labelled accordingly. No dataset licence has been applied automatically to the original source code.
 
 ## Zenodo archiving rights statement
 
@@ -24,4 +24,4 @@ On 17 October 2026, the project author approved manual archiving in the existing
 
 This software is publicly available for viewing and scholarly citation. No general permission to modify, redistribute or commercially use the original software is granted. Uses requiring authorisation must be agreed with the relevant rights holder. Applicable statutory rights and platform terms remain unaffected. Olist data and other third-party materials retain their respective terms.
 
-This approval does not grant an open-source licence or additional reuse permissions. Automatic GitHub archiving must remain disabled unless its rights metadata are separately verified. Approval of this statement does not by itself confirm that a release or DOI has been published.
+This approval does not grant an open-source licence or additional reuse permissions. Automatic GitHub archiving must remain disabled unless its rights metadata are separately verified. Version 0.1.0 was manually archived on 17 October 2026 under this statement: [Zenodo record](https://zenodo.org/records/23435889), DOI [10.5281/zenodo.23435889](https://doi.org/10.5281/zenodo.23435889). DOI registration does not grant additional reuse rights. See [archive provenance](docs/ARCHIVE.md).

@@ -1,11 +1,16 @@
 cff-version: 1.2.0
-message: "If you refer to this software, cite the repository and its documented version."
+message: "If you refer to this software, cite the archived version below. For later revisions, also include the Git commit identifier."
 type: software
 title: "Marketplace SQL Analytics: Customer and Category Intelligence"
 authors:
   - family-names: Kaheh
     given-names: Zohreh
-version: 0.1.0
+    orcid: "https://orcid.org/0000-0002-8518-8545"
+version: "0.1.0"
+date-released: "2026-10-17"
+doi: "10.5281/zenodo.23435889"
+url: "https://zenodo.org/records/23435889"
+commit: "d7cafad54af52b07d158a7df330433885ae51445"
 abstract: "SQL/SQLite marketplace analytics with validated CSV ingestion, customer and category metrics, independent Python reconciliation, and separately sourced historical Olist data."
 keywords:
   - SQL

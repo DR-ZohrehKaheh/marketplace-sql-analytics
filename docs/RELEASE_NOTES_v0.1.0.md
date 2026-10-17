@@ -1,6 +1,6 @@
 # v0.1.0 — Marketplace SQL Analytics
 
-Prepared notes for the first source-code release. The custom rights statement for manual Zenodo archiving was approved on 17 October 2026. Publication and DOI registration remain pending account access.
+Published on 17 October 2026: [GitHub release v0.1.0](https://github.com/DR-ZohrehKaheh/marketplace-sql-analytics/releases/tag/v0.1.0), [Zenodo archive](https://zenodo.org/records/23435889), version DOI [10.5281/zenodo.23435889](https://doi.org/10.5281/zenodo.23435889). This file was updated after archiving; the archived snapshot retains its original preparation notes.
 
 ## Included
 
@@ -16,9 +16,9 @@ Author and maintainer: **Dr Zohreh Kaheh**. The implementation and documentation
 
 ## Verification
 
-[GitHub Actions run 39019619673](https://github.com/DR-ZohrehKaheh/marketplace-sql-analytics/actions/runs/39019619673), at commit `bcdb6a9874c0cd3cf813b0c7bbf25f431d0521e0`, passed all 36 tests, the synthetic pipeline and independent reconciliation on Ubuntu and Windows on 17 October 2026.
+[GitHub Actions run 39027040535](https://github.com/DR-ZohrehKaheh/marketplace-sql-analytics/actions/runs/39027040535), at commit `d7cafad54af52b07d158a7df330433885ae51445`, passed all 36 tests, the synthetic pipeline and independent reconciliation on Ubuntu and Windows on 17 October 2026.
 
-[docs/VALIDATION.md](VALIDATION.md) separately records earlier local historical Olist verification. Historical execution was not repeated during DOI preparation. The final release commit and its CI result must be recorded when the release is published.
+[docs/VALIDATION.md](VALIDATION.md) separately records earlier local historical Olist verification. Historical execution was not repeated during DOI preparation. The release tag points to `d7cafad54af52b07d158a7df330433885ae51445` and has not been moved.
 
 ## Scope, distribution and rights
 
@@ -26,4 +26,4 @@ This is a descriptive portfolio case study, not a production service or validate
 
 The source distribution excludes original datasets, historical databases, customer-level reports, private evaluation outputs, manuscripts, student reports, trained models and local environment files. The synthetic generator creates invented records.
 
-No open-source software licence or additional reuse permission is granted. [RIGHTS.md](../RIGHTS.md) applies to the software; Olist's dataset terms are separate. A software DOI has not yet been issued. Any citation changes made after archiving must be distinguished from the archived snapshot; an existing release tag must not be moved.
+No open-source software licence or additional reuse permission is granted. [RIGHTS.md](../RIGHTS.md) applies to the software; Olist's dataset terms are separate. The archive uses the approved custom statement **No general software reuse licence — rights reserved**. Concept DOI: [10.5281/zenodo.23435888](https://doi.org/10.5281/zenodo.23435888). Citation edits made after archiving are not part of the archived snapshot; see [ARCHIVE.md](ARCHIVE.md).

@@ -58,7 +58,7 @@ The project was published on `main` in [DR-ZohrehKaheh/marketplace-sql-analytics
 
 [GitHub Actions run 39019374181](https://github.com/DR-ZohrehKaheh/marketplace-sql-analytics/actions/runs/39019374181) completed successfully on 17 October 2026. Both Ubuntu and Windows jobs passed all 36 tests, generated the synthetic reports and completed independent SQL/Python reconciliation. The uploaded 28-file tree matched the locally validated files by Git blob hash. The rendered README and GitHub's citation control were inspected.
 
-CI uses synthetic data only; historical Olist validation was executed separately and locally. No release or DOI has been issued as part of this publication task.
+CI uses synthetic data only; historical Olist validation was executed separately and locally. The first source release, [v0.1.0](https://github.com/DR-ZohrehKaheh/marketplace-sql-analytics/releases/tag/v0.1.0), was published on 17 October 2026 at commit `d7cafad54af52b07d158a7df330433885ae51445`. [GitHub Actions run 39027040535](https://github.com/DR-ZohrehKaheh/marketplace-sql-analytics/actions/runs/39027040535) passed on Ubuntu and Windows before publication. The exact 30-file source snapshot was manually archived in [Zenodo](https://zenodo.org/records/23435889), software DOI [10.5281/zenodo.23435889](https://doi.org/10.5281/zenodo.23435889), under the approved rights-reserved statement. The uploaded ZIP checksum matched the reviewed archive; its files matched the release Git tree by Git blob SHA. Historical Olist execution was not repeated during the DOI workflow. Later citation and publication-status edits are outside the archived snapshot; see [ARCHIVE.md](ARCHIVE.md).
 
 ## Remaining limitations
 
