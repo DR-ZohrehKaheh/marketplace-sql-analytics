@@ -12,7 +12,7 @@ A reproducible analytics case study for turning marketplace orders, items, custo
 
 Which categories account for observed purchases? How concentrated are purchases among sellers? How often do identified customers order again? This project builds a descriptive evidence layer for investigating those questions, with explicit definitions of item value, distinct orders and customer identity.
 
-It is an independently developed portfolio project with disclosed AI assistance. It is not affiliated with Olist or Wolt, and no operational business impact or production readiness is claimed.
+It is an independently developed portfolio project. It is not affiliated with Olist or Wolt, and no operational business impact or production readiness is claimed.
 
 ## Verified scope
 
@@ -122,6 +122,5 @@ Useful extensions include parameterised analysis dates with explicit observation
 
 Use [CITATION.cff](CITATION.cff) and a commit identifier when citing a specific revision. No software DOI or tagged release is claimed. No open-source software licence has been assigned; see [RIGHTS.md](RIGHTS.md).
 
-The implementation and documentation were prepared and revised with AI assistance under Dr Zohreh Kaheh's direction. The verification record describes the executed checks; it does not establish that every possible defect has been eliminated.
 
 Technical references: [SQLite SQL](https://www.sqlite.org/lang.html), [window functions](https://www.sqlite.org/windowfunctions.html), [Python sqlite3](https://docs.python.org/3.12/library/sqlite3.html).
