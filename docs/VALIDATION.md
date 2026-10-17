@@ -54,10 +54,14 @@ These checks validate import fidelity and transformations on the supplied snapsh
 
 ## CI and publication status
 
-GitHub Actions is configured to run tests, the synthetic CLI and independent reconciliation on Python 3.12 on Ubuntu and Windows. **Remote execution has not yet been verified in this preparation session.** The browser session requires GitHub sign-in before publication. No live repository, successful remote run, commit identifier, release or DOI is claimed by this document until confirmed.
+The project was published on `main` in [DR-ZohrehKaheh/marketplace-sql-analytics](https://github.com/DR-ZohrehKaheh/marketplace-sql-analytics). The initial publication commit is [`f7378cdc33783734cc835d230a0294faf2f721a6`](https://github.com/DR-ZohrehKaheh/marketplace-sql-analytics/commit/f7378cdc33783734cc835d230a0294faf2f721a6).
+
+[GitHub Actions run 39019374181](https://github.com/DR-ZohrehKaheh/marketplace-sql-analytics/actions/runs/39019374181) completed successfully on 17 October 2026. Both Ubuntu and Windows jobs passed all 36 tests, generated the synthetic reports and completed independent SQL/Python reconciliation. The uploaded 28-file tree matched the locally validated files by Git blob hash. The rendered README and GitHub's citation control were inspected.
+
+CI uses synthetic data only; historical Olist validation was executed separately and locally. No release or DOI has been issued as part of this publication task.
 
 ## Remaining limitations
 
-There is no event-time delivery status, complete follow-up guarantee, causal identification, predictive validation or production deployment. The feature and RFM dates are fixed historical examples. Repeat share is not cohort retention, and NTILE bands can split ties. Monetary storage uses binary REAL; this is not financial-ledger software. Large-scale performance, Windows execution and macOS execution have not been verified locally. The workflow will provide Windows evidence after successful online execution.
+There is no event-time delivery status, complete follow-up guarantee, causal identification, predictive validation or production deployment. The feature and RFM dates are fixed historical examples. Repeat share is not cohort retention, and NTILE bands can split ties. Monetary storage uses binary REAL; this is not financial-ledger software. Large-scale performance and macOS execution have not been verified. Windows verification was performed by the successful GitHub Actions runner, not locally.
 
 References: [SQLite window semantics](https://www.sqlite.org/windowfunctions.html), [supported Python versions](https://devguide.python.org/versions/), [Olist source](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce), [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).

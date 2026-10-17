@@ -1,5 +1,7 @@
 # Marketplace SQL Analytics
 
+[![Validate SQL portfolio](https://github.com/DR-ZohrehKaheh/marketplace-sql-analytics/actions/workflows/ci.yml/badge.svg)](https://github.com/DR-ZohrehKaheh/marketplace-sql-analytics/actions/workflows/ci.yml)
+
 **Customer & Category Intelligence · SQL · SQLite · Python**
 
 A reproducible analytics case study for turning marketplace orders, items, customers, products and sellers into clearly defined business metrics. It demonstrates SQL joins and window functions, customer identity resolution, data-quality controls and independent verification of analytical outputs.
@@ -19,7 +21,7 @@ It is an independently developed portfolio project with disclosed AI assistance.
 - **Independent Python/Decimal reconciliation** of every query's output, including customer features and RFM scores.
 - The historical run processed **99,441 orders and 112,650 order-item rows**. These are verification counts, not evidence of current marketplace performance.
 
-See [the verification record](docs/VALIDATION.md) for the environment, actual checks and limitations. CI is configured for Python 3.12 on Ubuntu and Windows; local verification was performed on Linux. An online CI result is only established by a completed workflow run.
+See [the verification record](docs/VALIDATION.md) for the environment, actual checks and limitations. The [first published CI run](https://github.com/DR-ZohrehKaheh/marketplace-sql-analytics/actions/runs/39019374181) passed all 36 tests, the synthetic pipeline and independent reconciliation on Python 3.12 on both Ubuntu and Windows. Historical Olist verification was performed locally on Linux.
 
 ## Quick start
 
