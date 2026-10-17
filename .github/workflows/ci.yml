@@ -1,0 +1,27 @@
+name: Validate SQL portfolio
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  test-and-run:
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 10
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Install Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run tests
+        run: python -m unittest discover -s tests -v
+      - name: Build synthetic demo and run all queries
+        run: python src/pipeline.py --mode synthetic
+      - name: Independently reconcile SQL with Python
+        run: python src/validate_results.py --db data/marketplace.sqlite

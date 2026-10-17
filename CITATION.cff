@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you refer to this software, cite the repository and its documented version."
+type: software
+title: "Marketplace SQL Analytics: Customer and Category Intelligence"
+authors:
+  - family-names: Kaheh
+    given-names: Zohreh
+version: 0.1.0
+abstract: "SQL/SQLite marketplace analytics with validated CSV ingestion, customer and category metrics, independent Python reconciliation, and separately sourced historical Olist data."
+keywords:
+  - SQL
+  - SQLite
+  - Python
+  - customer analytics
+  - data quality

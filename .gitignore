@@ -1,0 +1,23 @@
+# Outputs and downloaded data - never commit raw Olist CSVs
+*.sqlite
+*.sqlite-*
+*.db
+*.db-*
+/data/olist/
+/reports/
+*.csv
+*.zip
+*.log
+*.pem
+*.key
+# local tooling
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+.DS_Store
+.vscode/
+.env
+.env.*
+!.env.example
