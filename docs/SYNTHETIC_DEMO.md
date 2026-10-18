@@ -1,6 +1,6 @@
 # Verified synthetic demonstration only
 
-These outputs were produced locally from the fixed-seed artificial database (seed 47), not from historical Olist or a real marketplace. Figures must **never be cited as real commercial findings**.
+These outputs were produced locally from the fixed-seed artificial database (seed 47), not from historical Olist or a real marketplace. These figures illustrate the analytical workflow and do not represent commercial findings.
 
 - Total generated orders: **240**
 - Orders marked delivered: **211**
@@ -21,3 +21,4 @@ These outputs were produced locally from the fixed-seed artificial database (see
 These are category-by-customer-state totals; the order counts cannot be summed across categories to obtain marketplace orders.
 
 The demo verifies processing, tests, and metric definitions only. Apply the pipeline to separately downloaded historical Olist data and add a distinct empirically audited analysis before presenting business recommendations.
+

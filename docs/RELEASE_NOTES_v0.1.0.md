@@ -12,7 +12,7 @@ Published on 17 October 2026: [GitHub release v0.1.0](https://github.com/DR-Zohr
 
 ## Attribution
 
-Author and maintainer: **Dr Zohreh Kaheh**. The implementation and documentation were prepared and revised with AI assistance under her direction. No student collaborator or commercial affiliation is claimed. See [AUTHORS.md](../AUTHORS.md).
+Author and maintainer: **Dr Zohreh Kaheh**. See [AUTHORS.md](../AUTHORS.md).
 
 ## Verification
 
@@ -27,3 +27,4 @@ This is a descriptive portfolio case study, not a production service or validate
 The source distribution excludes original datasets, historical databases, customer-level reports, private evaluation outputs, manuscripts, student reports, trained models and local environment files. The synthetic generator creates invented records.
 
 No open-source software licence or additional reuse permission is granted. [RIGHTS.md](../RIGHTS.md) applies to the software; Olist's dataset terms are separate. The archive uses the approved custom statement **No general software reuse licence — rights reserved**. Concept DOI: [10.5281/zenodo.23435888](https://doi.org/10.5281/zenodo.23435888). Citation edits made after archiving are not part of the archived snapshot; see [ARCHIVE.md](ARCHIVE.md).
+

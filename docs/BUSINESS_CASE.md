@@ -28,5 +28,6 @@ If a state/category has high item value and concentrated observed purchases amon
 ## Dataset statement
 
 - **Default run:** 100% synthetic, reproducible demonstration data.
-- **Optional analysis:** historical Olist public dataset, 2016–2018, downloaded separately; no claim to represent a current market or Wolt.
+- **Optional analysis:** historical Olist public dataset, 2016–2018, downloaded separately for retrospective analysis.
 - Findings from default mode are **demonstrations**, not market insights.
+
