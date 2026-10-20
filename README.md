@@ -22,7 +22,7 @@ An independent portfolio case study using historical public Olist data, with a f
 - **Independent Python/Decimal reconciliation** of every query's output, including customer features and RFM scores.
 - The historical run processed **99,441 orders and 112,650 order-item rows**. These are verification counts, not evidence of current marketplace performance.
 
-See [the verification record](docs/VALIDATION.md) for the environment, actual checks and limitations. The [first published CI run](https://github.com/DR-ZohrehKaheh/marketplace-sql-analytics/actions/runs/39019374181) passed all 36 tests, the synthetic pipeline and independent reconciliation on Python 3.12 on both Ubuntu and Windows. Historical Olist verification was performed locally on Linux.
+See [the verification record](docs/VALIDATION.md) for the environment, completed checks and published verification scope. The [first published CI run](https://github.com/DR-ZohrehKaheh/marketplace-sql-analytics/actions/runs/39019374181) passed all 36 tests, the synthetic pipeline and independent reconciliation on Python 3.12 on both Ubuntu and Windows. Historical Olist verification was performed locally on Linux.
 
 ## Quick start
 
@@ -113,9 +113,9 @@ Each run produces nine CSVs and `run_metadata.json`, recording data mode, input 
 
 The [synthetic demonstration](docs/SYNTHETIC_DEMO.md) contains invented, reproducible examples. Historical verification confirmed that all nine SQL outputs match the independent Python calculation. It also found missing categories and orders without items, documented in the verification record. No present-day market recommendations are inferred from this historical sample.
 
-## Limitations and next steps
+## Scope of the published version
 
-This is descriptive analytics of observed purchases. It cannot measure exposure, conversion, unmet demand, available inventory, causal effects or customer lifetime value. Repeat share is not cohort retention. Missing timestamps and itemless orders mean different analyses can have different populations. Money is stored as SQLite `REAL` and displayed to two decimals; this is not an accounting ledger.
+This published version covers descriptive analytics of observed purchases. Exposure and conversion measurement, unmet-demand estimation, inventory analysis, causal inference, customer lifetime value and production deployment are outside this release's scope. The source records support observed purchase metrics; exposure, inventory and complete customer follow-up would require additional data. Repeat share describes observed repeat purchasing rather than cohort retention. Missing timestamps and itemless orders mean different analyses can have different populations. Money is stored as SQLite `REAL` and displayed to two decimals for analytical reporting; accounting-ledger functionality is outside the published scope.
 
 Useful extensions include parameterised analysis dates with explicit observation-window checks, cohort retention, separately aggregated payments/refunds, and query-performance evaluation on larger data. Each extension needs its own metric definitions and tests.
 

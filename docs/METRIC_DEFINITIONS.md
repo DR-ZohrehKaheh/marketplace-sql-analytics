@@ -35,4 +35,4 @@ A zero monetary denominator gives NULL percentage, not 0%. An empty customer pop
 
 `NTILE(4)` makes approximately equal-sized groups. Higher scores mean more recent, more frequent or greater monetary value. Equal values may be split by the customer-ID tie-breaker; scores can change with the population. With fewer than four customers, only the first available tile numbers appear. Segments use recency and frequency; monetary scores are provided separately.
 
-Dates are timezone-naive source timestamps. This schema contains purchase time but no delivery-event history. It cannot establish status availability at a historical cutoff or complete follow-up for a customer. No causal, predictive or operational validity is claimed.
+Dates are timezone-naive source timestamps. The published schema covers purchase times and retrospective delivery status. Delivery-event history and complete customer follow-up are outside this data model, so the analyses use retrospective status rather than status observed at a historical cutoff. Causal inference, predictive-model validation and operational evaluation are outside the scope of this published version.

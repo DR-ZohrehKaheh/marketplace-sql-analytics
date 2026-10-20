@@ -22,7 +22,7 @@ Author and maintainer: **Dr Zohreh Kaheh**. See [AUTHORS.md](../AUTHORS.md).
 
 ## Scope, distribution and rights
 
-This is a descriptive portfolio case study, not a production service or validated predictive model. Fixed historical dates, retrospective delivery status and observation-window limitations are documented. No current marketplace recommendations or operational impact are claimed.
+This published version is a descriptive portfolio case study. Production services, predictive-model validation, current-market recommendations and operational-impact evaluation are outside its scope. Its analyses use fixed historical dates, retrospective delivery status and the documented observation windows.
 
 The source distribution excludes original datasets, historical databases, customer-level reports, private evaluation outputs, manuscripts, student reports, trained models and local environment files. The synthetic generator creates invented records.
 
