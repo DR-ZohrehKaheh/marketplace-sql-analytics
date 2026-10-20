@@ -58,8 +58,12 @@ The project was published on `main` in [DR-ZohrehKaheh/marketplace-sql-analytics
 
 CI uses synthetic data only; historical Olist validation was executed separately and locally. The first source release, [v0.1.0](https://github.com/DR-ZohrehKaheh/marketplace-sql-analytics/releases/tag/v0.1.0), was published on 17 October 2026 at commit `d7cafad54af52b07d158a7df330433885ae51445`. [GitHub Actions run 39027040535](https://github.com/DR-ZohrehKaheh/marketplace-sql-analytics/actions/runs/39027040535) passed on Ubuntu and Windows before publication. The exact 30-file source snapshot was manually archived in [Zenodo](https://zenodo.org/records/23435889), software DOI [10.5281/zenodo.23435889](https://doi.org/10.5281/zenodo.23435889), under the approved rights-reserved statement. The uploaded ZIP checksum matched the reviewed archive; its files matched the release Git tree by Git blob SHA. Historical Olist execution was not repeated during the DOI workflow. Later citation and publication-status edits are outside the archived snapshot; see [ARCHIVE.md](ARCHIVE.md).
 
-## Remaining limitations
+## Scope of the published version
 
-There is no event-time delivery status, complete follow-up guarantee, causal identification, predictive validation or production deployment. The feature and RFM dates are fixed historical examples. Repeat share is not cohort retention, and NTILE bands can split ties. Monetary storage uses binary REAL; this is not financial-ledger software. Large-scale performance and macOS execution have not been verified. Windows verification was performed by the successful GitHub Actions runner, not locally.
+This published portfolio version focuses on descriptive SQL analytics, data-quality controls and independent verification of analytical outputs. Event-time delivery-status reconstruction, complete outcome follow-up, causal inference, predictive-model validation and production deployment are outside the scope of this release.
+
+The analyses use a historical snapshot with retrospective delivery status and no guarantee of complete follow-up. Feature and RFM cutoffs are fixed historical examples; repeat share measures observed repeat purchasing rather than cohort retention, and NTILE bands can split ties. Monetary values use SQLite REAL for analytical summaries; financial-ledger functionality is outside this release's scope.
+
+Published verification covers local Linux execution and Windows checks through GitHub Actions. Large-scale performance benchmarking and macOS verification are outside the documented test scope.
 
 References: [SQLite window semantics](https://www.sqlite.org/windowfunctions.html), [supported Python versions](https://devguide.python.org/versions/), [Olist source](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce), [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
