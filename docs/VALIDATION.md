@@ -2,11 +2,9 @@
 
 Date: **17 October 2026**. This record distinguishes executed local checks from online publication and operational validation.
 
-## Initial review and corrections
+## Input and output safeguards
 
-The supplied project passed 12 tests, but those tests did not detect several important edge cases. The review reproduced acceptance of an infinite price, negative freight, a blank customer identity and a malformed purchase timestamp. An empty repeat query returned NULL for the repeat count, and rebuilding could delete the existing database before validation succeeded.
-
-Corrections include validated inputs; explicit overwrite consent with atomic database replacement; preservation of the existing database on failure; closed SQLite connections; deterministic tie handling; zero repeat counts for empty populations; read-only query execution; labelled, non-overwriting report directories; CSV formula protection; stronger ignore rules; and expanded regression tests. The category reconciliation test now checks the actual shipped SQL rather than a separate near-duplicate SQL calculation. Python 3.9 instructions were replaced with the verified, supported Python 3.12 baseline.
+The pipeline validates identifiers, money values and timestamps; requires explicit consent before replacing a database; and preserves existing files if a build fails. Reports use a new output directory, deterministic ordering and spreadsheet-safe CSV exports. Automated tests cover these safeguards and the shipped SQL queries.
 
 ## Clean-environment checks
 
